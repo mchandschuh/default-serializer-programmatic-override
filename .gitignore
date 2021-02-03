@@ -1,0 +1,26 @@
+
+# build artifacts
+**/bin/**
+**/obj/**
+.docker/images
+
+# user files
+src/.vs/*
+**.suo
+**.user
+**/Properties/launchSettings.json
+**.config.json
+
+# local object store
+__object_store/*
+
+# auto-generated version.json file
+**/version.json
+
+# auto-generated comment files
+*.xml
+
+
+# ignore build log files
+**.log
+dist/
